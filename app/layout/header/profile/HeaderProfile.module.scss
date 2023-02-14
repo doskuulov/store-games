@@ -1,22 +1,20 @@
 .container {
 	display: flex;
+	padding-top: 1px;
 }
 
-.language {
+.profile__name {
+	padding-right: 20px;
+	position: relative;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 130%;
+	text-align: right;
 	color: #ffffff;
-
-	span {
-		color: #3c364e;
-	}
 }
 
-.d__img {
-	height: 5px;
+.profile__img {
 	position: relative;
-	top: 8px;
-	left: 8px;
+	bottom: 5px;
 }

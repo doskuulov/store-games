@@ -1,5 +1,6 @@
 import React, { FC } from 'react'
-import { HiArrowSmDown } from 'react-icons/hi'
+import Image from 'next/image'
+import down from '../../../../public/down.svg'
 import styles from './Language.module.scss'
 
 const Language: FC = () => {
@@ -9,7 +10,7 @@ const Language: FC = () => {
 				RU<span>/</span>$
 			</p>
 			<p className={styles.d}>
-				<HiArrowSmDown />
+				<Image src={down} alt='down' className={styles.d__img} />
 			</p>
 		</div>
 	)
