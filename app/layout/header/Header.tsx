@@ -1,7 +1,12 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
+import Language from './language/language'
 
 const Header: FC = () => {
-	return <div className='text-orange-400'>Header</div>
+	return (
+		<div className=''>
+			<Language />
+		</div>
+	)
 }
 
 export default Header
