@@ -1,0 +1,20 @@
+.header {
+	@apply bg-[#131313];
+}
+
+.menu {
+	ul {
+		display: flex;
+		padding-left: 70px;
+	}
+
+	ul > li {
+		font-family: 'Manrope';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 130%;
+		color: #ffffff;
+		padding-left: 32px;
+	}
+}

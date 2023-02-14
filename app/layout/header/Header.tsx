@@ -1,11 +1,14 @@
 import { FC } from 'react'
+import styles from './Header.module.scss'
+import HeaderMenu from './menu/HeaderMenu'
 import Language from './language/language'
 
 const Header: FC = () => {
 	return (
-		<div className=''>
+		<header className={styles.header}>
 			<Language />
-		</div>
+			<HeaderMenu />
+		</header>
 	)
 }
 

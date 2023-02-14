@@ -1,11 +1,21 @@
+.container {
+	display: flex;
+}
+
 .language {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 130%;
 	color: #ffffff;
-} /*# sourceMappingURL=Language.module.css.map */
 
-.languages > span {
-	color: #3c364e;
+	span {
+		color: #3c364e;
+	}
+}
+
+.d {
+	position: relative;
+	top: 3px;
+	margin-left: 5px;
 }
