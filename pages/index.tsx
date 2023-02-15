@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import Header from '@/app/layout/header/Header'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import NavBar from '@/app/layout/navbar/NavBar'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
 
 			<main>
 				<Header />
+				<NavBar />
 			</main>
 		</>
 	)
