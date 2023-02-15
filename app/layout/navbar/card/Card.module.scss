@@ -27,10 +27,9 @@
 
 .cart__num {
 	position: absolute;
-	width: 30px;
-	height: 29px;
-	top: 70px;
-	left: 16px;
+	width: 15px;
+	height: 15px;
+	top: 75px;
 	background: rgba(21, 15, 38, 0.35);
 	backdrop-filter: blur(5px);
 	border-radius: 6px;
@@ -42,12 +41,7 @@
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 130%;
-	/* identical to box height, or 21px */
-
 	color: #77be1d;
-
-	/* Inside auto layout */
-
 	flex: none;
 	order: 0;
 	flex-grow: 0;
