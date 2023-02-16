@@ -4,14 +4,21 @@ import styles from './Baner.module.scss'
 import baner1 from '../../../public/baner1.png'
 import baner2 from '../../../public/baner4.jpg'
 import baner3 from '../../../public/baner3.jpg'
+import logo from '../../../public/logo.nfs.png'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel'
 
-const Baner: FC = () => {
+interface ImageProps {
+	src: string
+	alt: string
+	width?: number
+	height?: number
+}
+
+const Baner = (props: ImageProps) => {
 	return (
 		<div className={styles.slider_wrapper}>
 			<Carousel
-				autoPlay
 				infiniteLoop
 				showStatus={false}
 				showIndicators={false}
@@ -25,7 +32,19 @@ const Baner: FC = () => {
 						src={baner1}
 						alt='baner'
 					/>
-					<p className={styles.slider_title}>Legend 1</p>
+					<div className={styles.wrapper}>
+						<img
+							src={props.src}
+							alt={props.alt}
+							width={props.width}
+							height={props.height}
+						/>
+						;
+						<p className={styles.wrap_p}>
+							Тотальная война нового поколения началась! Сыграйте в Battlefield™
+							2042 уже сегодня. Адаптируйтесь и процветайте!
+						</p>
+					</div>
 				</div>
 				<div>
 					<Image

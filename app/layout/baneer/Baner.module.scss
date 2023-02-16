@@ -2,6 +2,31 @@
 	width: 1260px;
 	height: 700px;
 	border-radius: 20px;
+	// background-image: ('https://i.ibb.co/vkCFv1D/baner-logo.png');
+}
+
+.wrapper {
+	bottom: 400px;
+	left: 150px;
+	position: relative;
+	z-index: 999;
+}
+
+.wrapper img {
+	width: 100px;
+}
+
+.wrap_p {
+	width: 525px;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 160%;
+	color: #ffffff;
+}
+
+.logo {
+	width: 221px;
+	height: 65px;
 }
 
 .slider_wrapper {

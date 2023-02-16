@@ -16,6 +16,7 @@
 	}
 
 	input {
+		padding: 20px;
 		margin: 0px 50px;
 		background: rgba(196, 196, 196, 0.05);
 		border-radius: 5px;
@@ -26,6 +27,7 @@
 		flex-shrink: 1;
 		border-top-left-radius: 0.375rem;
 		border-bottom-left-radius: 0.375rem;
+
 		&:focus {
 			outline: none;
 		}
