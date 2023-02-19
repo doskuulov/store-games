@@ -3,17 +3,30 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import styles from './HeaderMenu.module.scss'
 import MenuItem from './menu-item/MenuItem'
 import { menu } from './menu.data'
+import classNames from 'classnames'
 
-const HeaderMenu: FC = () => {
+interface IButtonProps {
+	primary: boolean
+	danger?: boolean
+	className?: string
+}
+
+function HeaderMenu({ primary, danger, className }: IButtonProps) {
 	const [nav, setNav] = useState<boolean>()
+	const ulClasses = classNames(
+		'ul',
+		{ 'ul--primary': primary },
+		{ 'ul--danger': danger },
+		className
+	)
 	return (
 		<div>
 			<div className={styles.menu}>
-				<nav>
+				<nav className={ulClasses}>
 					<ul
-						className={
+						className={`${
 							nav ? [styles.menu, styles.active].join(' ') : [styles.menu]
-						}
+						} ${ulClasses}`}
 					>
 						{menu.map(item => (
 							<MenuItem key={item.link} item={item} />
