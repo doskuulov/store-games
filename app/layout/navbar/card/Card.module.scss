@@ -1,6 +1,9 @@
 .card {
 	justify-content: space-around;
 	display: flex;
+	@media (max-width: 825px) {
+		display: none;
+	}
 }
 
 .section {
@@ -8,11 +11,11 @@
 	display: flex;
 }
 
-.icons__img {
-	position: relative;
-	width: 18px;
-	height: 18px;
-}
+// .icons__img {
+// 	position: relative;
+// 	// width: 18px;
+// 	// height: 18px;
+// }
 
 .cart {
 }

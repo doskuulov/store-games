@@ -1,3 +1,9 @@
+.container {
+	@media (max-width: 825px) {
+		display: none;
+	}
+}
+
 .logo > p {
 	padding-left: 11px;
 	font-family: 'Manrope';

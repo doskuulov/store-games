@@ -1,6 +1,10 @@
 .container {
 	display: flex;
 	padding-top: 1px;
+
+	@media (max-width: 825px) {
+		// display: none;
+	}
 }
 
 .profile__name {
