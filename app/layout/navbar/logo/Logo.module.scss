@@ -6,6 +6,10 @@
 	font-size: 32px;
 	line-height: 90%;
 	color: #ffffff;
+	@media (max-width: 998px) {
+		padding-top: 5px;
+		font-size: 24px;
+	}
 }
 
 .logo {

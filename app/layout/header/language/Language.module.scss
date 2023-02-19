@@ -3,6 +3,7 @@
 }
 
 .language {
+	position: relative;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 16px;
@@ -12,6 +13,11 @@
 	span {
 		color: #3c364e;
 	}
+
+	@media (max-width: 998px) {
+		top: 5px;
+		font-size: 12px;
+	}
 }
 
 .d__img {
@@ -19,4 +25,8 @@
 	position: relative;
 	top: 8px;
 	left: 8px;
+
+	@media (max-width: 998px) {
+		top: 10px;
+	}
 }

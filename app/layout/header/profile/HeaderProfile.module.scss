@@ -6,12 +6,15 @@
 .profile__name {
 	padding-right: 20px;
 	position: relative;
-	font-style: normal;
 	font-weight: 600;
 	font-size: 16px;
 	line-height: 130%;
 	text-align: right;
 	color: #ffffff;
+	@media (max-width: 998px) {
+		top: 5px;
+		font-size: 12px;
+	}
 }
 
 .profile__img {

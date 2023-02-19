@@ -8,6 +8,15 @@
 	display: flex;
 }
 
+.icons__img {
+	position: relative;
+	width: 18px;
+	height: 18px;
+}
+
+.cart {
+}
+
 .icons {
 	padding: 0px 5px;
 }
@@ -19,6 +28,10 @@
 	line-height: 130%;
 	text-align: right;
 	color: #77be1d;
+	@media (max-width: 998px) {
+		padding-top: 5px;
+		font-size: 12px;
+	}
 }
 
 .free {

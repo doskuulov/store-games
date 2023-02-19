@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Header from '@/app/layout/header/Header'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
 import NavBar from '@/app/layout/navbar/NavBar'
 import Baner from '@/app/layout/baneer/Baner'
 const inter = Inter({ subsets: ['latin'] })
@@ -21,7 +18,7 @@ export default function Home() {
 			<main>
 				<Header />
 				<NavBar />
-				<Baner />
+				{/* <Baner /> */}
 			</main>
 		</>
 	)
