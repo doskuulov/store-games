@@ -12,7 +12,7 @@ interface IButtonProps {
 }
 
 function HeaderMenu({ primary, danger, className }: IButtonProps) {
-	const [nav, setNav] = useState<boolean>()
+	const [nav, setNav] = useState(false)
 	const ulClasses = classNames(
 		'ul',
 		{ 'ul--primary': primary },
@@ -20,23 +20,21 @@ function HeaderMenu({ primary, danger, className }: IButtonProps) {
 		className
 	)
 	return (
-		<div>
-			<div className={styles.menu}>
-				<nav className={ulClasses}>
-					<ul
-						className={`${
-							nav ? [styles.menu, styles.active].join(' ') : [styles.menu]
-						} ${ulClasses}`}
-					>
-						{menu.map(item => (
-							<MenuItem key={item.link} item={item} />
-						))}
-					</ul>
-					<div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
-						{nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
-					</div>
-				</nav>
-			</div>
+		<div className={styles.menu}>
+			<nav>
+				<ul
+					className={`${
+						nav ? [styles.menu, styles.active].join(' ') : [styles.menu]
+					} ${ulClasses}`}
+				>
+					{menu.map(item => (
+						<MenuItem key={item.link} item={item} />
+					))}
+				</ul>
+				<div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
+					{nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
+				</div>
+			</nav>
 		</div>
 	)
 }
