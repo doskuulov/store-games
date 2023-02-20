@@ -3,13 +3,15 @@ import styles from './Header.module.scss'
 import HeaderMenu from './menu/HeaderMenu'
 import Language from './language/language'
 import HeaderProfile from './profile/HeaderProfile'
+import Adaptive from './adaptive-menu/adaptive'
 
 const Header: FC = () => {
 	return (
 		<header className={styles.header}>
-			<Language />
+			{/* <Language />
 			<HeaderMenu />
-			<HeaderProfile />
+			<HeaderProfile /> */}
+			<Adaptive />
 		</header>
 	)
 }
