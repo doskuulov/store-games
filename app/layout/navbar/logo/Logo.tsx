@@ -8,7 +8,7 @@ const Logo: FC = () => {
 		<div className={styles.container}>
 			<div className={styles.logo}>
 				<Image src={logo} alt='logo' />
-				<p>Playnchill</p>
+				<a href='/'>Playnchill</a>
 			</div>
 		</div>
 	)
