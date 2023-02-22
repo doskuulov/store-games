@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import styles from './Header.module.scss'
-import Language from './language/language'
 import HeaderMenu from './menu/HeaderMenu'
+import Language from './language/language'
 import HeaderProfile from './profile/HeaderProfile'
 
 const Header: FC = () => {
