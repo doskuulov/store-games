@@ -1,10 +1,6 @@
 .container {
 	display: flex;
 	padding-top: 1px;
-
-	@media (max-width: 825px) {
-		// display: none;
-	}
 }
 
 .profile__name {
@@ -19,9 +15,28 @@
 		top: 5px;
 		font-size: 12px;
 	}
+
+	@media (max-width: 825px) {
+		display: none;
+	}
 }
 
 .profile__img {
 	position: relative;
 	bottom: 5px;
+
+	@media (max-width: 825px) {
+		display: none;
+	}
+}
+
+.card {
+	display: none;
+	@media (max-width: 825px) {
+		display: block;
+	}
+}
+
+.card__img {
+	margin: 5px 12px 5px 0px;
 }

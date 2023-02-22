@@ -1,7 +1,7 @@
 .container {
 	display: flex;
 	@media (max-width: 825px) {
-		// display: none;
+		visibility: hidden;
 	}
 }
 

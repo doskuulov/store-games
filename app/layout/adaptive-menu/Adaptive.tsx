@@ -8,7 +8,7 @@ import Vector from '../../../public/Vector.png'
 const Adaptive = () => {
 	return (
 		<div className={styles.container}>
-			<div className={styles.wrap}>
+			<div className={styles.meni}>
 				<div className={styles.logo}>
 					<Image width={25} src={Logo} alt='logo' />
 					<a>Playnchill</a>

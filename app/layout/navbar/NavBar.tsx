@@ -9,7 +9,7 @@ const NavBar: FC = () => {
 		<div className={styles.navbar}>
 			<Logo />
 			<Input />
-			{/* <Card /> */}
+			<Card />
 		</div>
 	)
 }
