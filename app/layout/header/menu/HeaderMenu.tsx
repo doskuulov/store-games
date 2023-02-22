@@ -1,5 +1,6 @@
 import { FC, useState } from 'react'
-import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import { AiOutlineClose } from 'react-icons/ai'
+import { HiMenuAlt1 } from 'react-icons/hi'
 import styles from './HeaderMenu.module.scss'
 import MenuItem from './menu-item/MenuItem'
 import { menu } from './menu.data'
@@ -35,7 +36,7 @@ function HeaderMenu({ primary, danger, className }: IButtonProps) {
 						))}
 					</ul>
 					<div onClick={() => setNav(!nav)} className={styles.mobile_btn}>
-						{nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
+						{nav ? <AiOutlineClose size={30} /> : <HiMenuAlt1 size={30} />}
 					</div>
 				</nav>
 				{/* media block */}

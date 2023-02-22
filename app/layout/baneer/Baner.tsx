@@ -40,10 +40,11 @@ const Baner = (props: ImageProps) => {
 							height={props.height}
 							className={styles.wrap_logo}
 						/>
-						<p className={styles.wrap_p}>
+						<h6 className={styles.wrap_p}>
 							Тотальная война нового поколения началась! Сыграйте в Battlefield™
 							2042 уже сегодня. Адаптируйтесь и процветайте!
-						</p>
+						</h6>
+
 						<div className={styles.title}>
 							<h1>4 999 Р</h1>
 							<span>-25%</span>
