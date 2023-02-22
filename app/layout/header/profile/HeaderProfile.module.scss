@@ -29,14 +29,3 @@
 		display: none;
 	}
 }
-
-.card {
-	display: none;
-	@media (max-width: 825px) {
-		display: block;
-	}
-}
-
-.card__img {
-	margin: 5px 12px 5px 0px;
-}

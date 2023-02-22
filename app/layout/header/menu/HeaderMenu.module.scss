@@ -64,18 +64,11 @@
 	}
 }
 
-.logo {
-	@media (max-width: 825px) {
-		display: block;
-	}
-}
 .wrap {
 	display: flex;
 }
 .wrap > a {
 	padding-left: 11px;
-	font-family: 'Manrope';
-	font-style: normal;
 	font-weight: 800;
 	font-size: 32px;
 	line-height: 90%;
@@ -83,16 +76,6 @@
 	@media (max-width: 998px) {
 		padding-top: 5px;
 		font-size: 24px;
-	}
-
-	@media (max-width: 825px) {
-		display: flex;
-	}
-}
-
-.logo_img {
-	@media (max-width: 825px) {
-		display: flex;
 	}
 }
 

@@ -9,8 +9,8 @@ const Language: FC = () => {
 			<p className={styles.language}>
 				RU<span>/</span>$
 			</p>
-			<p className={styles.d}>
-				<Image src={down} alt='down' className={styles.d__img} />
+			<p className={styles.down}>
+				<Image src={down} alt='down' className={styles.down__img} />
 			</p>
 		</div>
 	)
