@@ -32,7 +32,7 @@ const Baner = (props: ImageProps) => {
 						src={baner1}
 						alt='baner'
 					/>
-					<div className={styles.wrapper}>
+					{/* <div className={styles.wrapper}>
 						<img
 							src='https://i.ibb.co/vkCFv1D/baner-logo.png'
 							alt={props.alt}
@@ -55,7 +55,7 @@ const Baner = (props: ImageProps) => {
 							<button className={styles.button1}>В корзину</button>
 							<button className={styles.button2}>В избранное</button>
 						</div>
-					</div>
+					</div> */}
 				</div>
 				<div>
 					<Image
@@ -64,7 +64,30 @@ const Baner = (props: ImageProps) => {
 						src={baner2}
 						alt='baner'
 					/>
-					<p className={styles.slider_title}>Legend 2</p>
+					{/* <div className={styles.wrapper}>
+						<img
+							src='https://i.ibb.co/vkCFv1D/baner-logo.png'
+							alt={props.alt}
+							width={props.width}
+							height={props.height}
+							className={styles.wrap_logo}
+						/>
+						<h6 className={styles.wrap_p}>
+							Тотальная война нового поколения началась! Сыграйте в Battlefield™
+							2042 уже сегодня. Адаптируйтесь и процветайте!
+						</h6>
+
+						<div className={styles.title}>
+							<h1>4 999 Р</h1>
+							<span>-25%</span>
+							<p>6 999 P</p>
+						</div>
+
+						<div className={styles.wrap_button}>
+							<button className={styles.button1}>В корзину</button>
+							<button className={styles.button2}>В избранное</button>
+						</div>
+					</div> */}
 				</div>
 				<div>
 					<Image
@@ -73,7 +96,30 @@ const Baner = (props: ImageProps) => {
 						src={baner3}
 						alt='baner'
 					/>
-					<p className={styles.slider_title}>Legend 3</p>
+					{/* <div className={styles.wrapper}>
+						<img
+							src='https://i.ibb.co/vkCFv1D/baner-logo.png'
+							alt={props.alt}
+							width={props.width}
+							height={props.height}
+							className={styles.wrap_logo}
+						/>
+						<h6 className={styles.wrap_p}>
+							Тотальная война нового поколения началась! Сыграйте в Battlefield™
+							2042 уже сегодня. Адаптируйтесь и процветайте!
+						</h6>
+
+						<div className={styles.title}>
+							<h1>4 999 Р</h1>
+							<span>-25%</span>
+							<p>6 999 P</p>
+						</div>
+
+						<div className={styles.wrap_button}>
+							<button className={styles.button1}>В корзину</button>
+							<button className={styles.button2}>В избранное</button>
+						</div>
+					</div> */}
 				</div>
 			</Carousel>
 		</div>

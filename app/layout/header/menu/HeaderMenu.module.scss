@@ -10,12 +10,13 @@
 		position: relative;
 		font-style: normal;
 		font-weight: 600;
+		padding-top: 1px;
 		font-size: 16px;
 		line-height: 130%;
 		padding-left: 32px;
 
 		@media (max-width: 998px) {
-			top: 5px;
+			top: 6px;
 			font-size: 12px;
 		}
 

@@ -14,6 +14,7 @@ const HeaderProfile: FC = () => {
 			</div>
 			<Image src={profile} alt='profile' className={styles.profile__img} />
 			{/* media block */}
+			<div className={styles.row}></div>
 			<div className={styles.card}>
 				<Image
 					width={22}

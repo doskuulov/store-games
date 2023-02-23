@@ -39,3 +39,17 @@
 .card__img {
 	margin: 5px 12px 5px 0px;
 }
+
+.row {
+	display: none;
+	@media (max-width: 825px) {
+		display: block;
+	}
+	position: relative;
+	height: 90px;
+	width: 2px;
+	right: 30px;
+	bottom: 30px;
+	border-radius: 0px;
+	background: #13101b;
+}
