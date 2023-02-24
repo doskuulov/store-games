@@ -4,6 +4,7 @@ import Header from '@/app/layout/header/Header'
 import NavBar from '@/app/layout/navbar/NavBar'
 import Baner from '@/app/layout/baneer/Baner'
 import Row from '@/app/ui/grid/Row'
+import TopCart from '@/app/layout/top-cart/TopCart'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
 				<NavBar />
 				<Row />
 				<Baner />
+				<TopCart />
 			</main>
 		</>
 	)

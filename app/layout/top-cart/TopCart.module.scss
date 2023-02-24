@@ -1,0 +1,44 @@
+.main__title {
+	padding-top: 50px;
+	display: flex;
+}
+
+.main__title h2 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 130%;
+	background: conic-gradient(
+			from 180deg at 50.93% 50%,
+			#000000 0deg,
+			rgba(255, 255, 255, 0.72) 16.88deg,
+			#000000 88.12deg,
+			rgba(255, 255, 255, 0.72) 151.87deg,
+			#000000 225deg,
+			rgba(255, 255, 255, 0.72) 288.75deg,
+			#000000 360deg
+		),
+		radial-gradient(
+				78.31% 80.25% at 11.77% 28.24%,
+				rgba(110, 124, 251, 0.52) 7.61%,
+				rgba(251, 66, 255, 0.52) 35.14%,
+				rgba(255, 66, 247, 0.52) 63.45%,
+				rgba(66, 119, 255, 0.52) 100%
+			)
+			conic-gradient(
+				from 180deg at 49.45% 50%,
+				#e8edf1 -3.44deg,
+				#d6dfe6 56.25deg,
+				#fafbfc 133.38deg,
+				#f6d0ff 215.62deg,
+				#d7e0e7 311.43deg,
+				#f7f8f9 313.84deg,
+				#e8edf1 356.56deg,
+				#d6dfe6 416.25deg
+			),
+		#ffffff;
+}
+
+.flesh {
+	margin: 10px;
+}
