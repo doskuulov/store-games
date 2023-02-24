@@ -3,6 +3,10 @@
 	display: flex;
 }
 
+.flesh {
+	margin: 10px;
+}
+
 .main__title h2 {
 	font-style: normal;
 	font-weight: 600;
@@ -39,8 +43,30 @@
 		#ffffff;
 }
 
-.flesh {
-	margin: 10px;
+.sale1 {
+	cursor: pointer;
+}
+
+.hidden_element {
+	position: relative;
+	top: 10px;
+	display: block;
+	color: white;
+	width: 260px;
+	height: 63px;
+	background: #77be1d;
+	backdrop-filter: blur(10px);
+	border-radius: 12px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 130%;
+	z-index: 999px !important;
+	color: #ffffff;
+}
+
+.sale1:hover + .hidden_element {
+	display: block;
+	z-index: 999px !important;
 }
 
 .main {

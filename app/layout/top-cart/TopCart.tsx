@@ -8,12 +8,6 @@ import sale2 from '../../../public/sale2.png'
 import sale3 from '../../../public/sale3.png'
 import sale4 from '../../../public/sale4.png'
 
-interface IButtonProps {
-	primary: boolean
-	danger?: boolean
-	className?: string
-}
-
 function TopCart() {
 	return (
 		<div className={styles.cart}>
@@ -24,7 +18,9 @@ function TopCart() {
 			{/* sale start */}
 			<div className={styles.main}>
 				<div className={styles.sale}>
-					<Image src={sale1} alt='sale' />
+					<Image className={styles.sale1} src={sale1} alt='sale' />
+					<button className={styles.hidden_element}>В корзину</button>
+
 					<div className={styles.number}>
 						<p>16 400 P</p>
 						<span>-15%</span>
