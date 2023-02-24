@@ -45,12 +45,14 @@
 
 .sale1 {
 	cursor: pointer;
+	z-index: -1px;
 }
 
 .hidden_element {
 	position: relative;
-	top: 10px;
-	display: block;
+	bottom: 100px;
+	left: 20px;
+	display: none;
 	color: white;
 	width: 260px;
 	height: 63px;

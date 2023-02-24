@@ -36,7 +36,8 @@ function TopCart() {
 				</div>
 				{/* 2 */}
 				<div className={styles.sale}>
-					<Image src={sale2} alt='sale' />
+					<Image className={styles.sale1} src={sale2} alt='sale' />
+					<button className={styles.hidden_element}>В корзину</button>
 					<div className={styles.number}>
 						<p>16 400 P</p>
 						<span>-15%</span>
@@ -52,7 +53,8 @@ function TopCart() {
 				</div>
 				{/* 3 */}
 				<div className={styles.sale}>
-					<Image src={sale3} alt='sale' />
+					<Image className={styles.sale1} src={sale3} alt='sale' />
+					<button className={styles.hidden_element}>В корзину</button>
 					<div className={styles.number}>
 						<p>16 400 P</p>
 						<span>-15%</span>
@@ -68,7 +70,8 @@ function TopCart() {
 				</div>
 				{/* 4 */}
 				<div className={styles.sale}>
-					<Image src={sale4} alt='sale' />
+					<Image className={styles.sale1} src={sale4} alt='sale' />
+					<button className={styles.hidden_element}>В корзину</button>
 					<div className={styles.number}>
 						<p>16 400 P</p>
 						<span>-15%</span>
