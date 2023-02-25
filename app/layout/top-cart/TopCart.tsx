@@ -101,17 +101,23 @@ function TopCart() {
 						<div className={styles.slide_button}>
 							<button className={styles.button_right}>Купить</button>
 							<button className={styles.button_left}>В избранное</button>
-							<Image src={karti} alt='' />
-						</div>{' '}
+							{/* <Image className={styles.sli} src={karti} alt='' /> */}
+						</div>
 					</div>
 				</div>
 				{/* slide 2 */}
 				<div className={styles.slide_two}>
-					<h3>Играй уже сейчас в Minecraft dangerous</h3>
-					<div className={styles.number}>
-						<p>4 999 P</p>
-						<span>-25%</span>
-						<p className={styles.tit}>6 999P</p>
+					<div className={styles.slide_wrap}>
+						<h3>ИИграй уже сейчас в Minecraft dangerous</h3>
+						<div className={styles.slide_number}>
+							<p>4 999 P</p>
+							<span>-25%</span>
+							<p className={styles.slide_num}>6 999P</p>
+						</div>
+						<div className={styles.slide_button}>
+							<button className={styles.button_right}>Купить</button>
+							<button className={styles.button_left}>В избранное</button>
+						</div>
 					</div>
 				</div>
 			</div>

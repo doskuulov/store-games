@@ -183,4 +183,54 @@
 .slide_number {
 	margin: 20px 30px 0px;
 	display: flex;
+	font-weight: 800;
+	p {
+		font-size: 24px;
+		line-height: 130%;
+		color: #ffffff;
+		padding-right: 10px;
+	}
+
+	span {
+		padding-top: 5px;
+		font-size: 20px;
+		line-height: 130%;
+		color: #ffe817;
+		padding-right: 10px;
+	}
+}
+
+.slide_num {
+	text-decoration: line-through;
+	font-weight: 400 !important;
+	font-size: 24px !important;
+	line-height: 130% !important;
+	color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.slide_button {
+	margin: 20px 30px 0px;
+	display: flex;
+}
+
+.button_right {
+	width: 144px;
+	height: 63px;
+	margin-right: 5px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 15px;
+	color: #fff;
+}
+
+.button_left {
+	width: 144px;
+	height: 63px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 15px;
+	color: #fff;
+}
+
+.sli {
+	position: absolute;
+	right: 900px;
 }
