@@ -143,3 +143,44 @@
 	opacity: 0.5;
 	border-radius: 20px;
 }
+
+// slide
+
+.slide {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.slide_one {
+	margin: 31px;
+	width: 620px;
+	height: 360px;
+	background: linear-gradient(131.39deg, #1dbe53 -11.11%, #ace238 73.42%);
+	border-radius: 15px;
+}
+
+.slide_two {
+	margin: 31px;
+	width: 620px;
+	height: 360px;
+	background: linear-gradient(131.39deg, #ff3d23 -11.11%, #fda828 73.42%);
+	border-radius: 15px;
+}
+
+.slide_wrap {
+	h3 {
+		width: 379px;
+		height: 86px;
+		margin: 30px 30px 0px;
+		font-weight: 800;
+		font-size: 36px;
+		line-height: 120%;
+		color: #ffffff;
+	}
+}
+
+.slide_number {
+	margin: 20px 30px 0px;
+	display: flex;
+}

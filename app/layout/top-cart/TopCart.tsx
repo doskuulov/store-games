@@ -7,6 +7,8 @@ import sale1 from '../../../public/sale1.png'
 import sale2 from '../../../public/sale2.png'
 import sale3 from '../../../public/sale3.png'
 import sale4 from '../../../public/sale4.png'
+//
+import karti from '../../../public/karti.png'
 
 function TopCart() {
 	return (
@@ -83,6 +85,33 @@ function TopCart() {
 						<span>Ключ</span>
 						<div className={styles.sfera}></div>
 						<span>EpicGames</span>
+					</div>
+				</div>
+			</div>
+			{/*  */}
+			<div className={styles.slide}>
+				<div className={styles.slide_one}>
+					<div className={styles.slide_wrap}>
+						<h3>Играй уже сейчас в Minecraft</h3>
+						<div className={styles.slide_number}>
+							<p>4 999 P</p>
+							<span>-25%</span>
+							<p className={styles.slide_num}>6 999P</p>
+						</div>
+						<div className={styles.slide_button}>
+							<button className={styles.button_right}>Купить</button>
+							<button className={styles.button_left}>В избранное</button>
+							<Image src={karti} alt='' />
+						</div>{' '}
+					</div>
+				</div>
+				{/* slide 2 */}
+				<div className={styles.slide_two}>
+					<h3>Играй уже сейчас в Minecraft dangerous</h3>
+					<div className={styles.number}>
+						<p>4 999 P</p>
+						<span>-25%</span>
+						<p className={styles.tit}>6 999P</p>
 					</div>
 				</div>
 			</div>
