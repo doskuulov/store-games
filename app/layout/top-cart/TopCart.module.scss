@@ -8,6 +8,7 @@
 }
 
 .main__title h2 {
+	padding-left: 15px;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 32px;
@@ -48,27 +49,36 @@
 	z-index: -1px;
 }
 
+.ll {
+	position: absolute;
+	right: 300px;
+	@media (max-width: 1171px) {
+		display: none;
+	}
+}
+
+.li {
+	position: absolute;
+	left: 600px;
+	@media (max-width: 1171px) {
+		display: none;
+	}
+}
+
 .hidden_element {
-	position: relative;
-	bottom: 100px;
-	left: 20px;
-	display: none;
+	margin-left: 70px;
 	color: white;
-	width: 260px;
-	height: 63px;
+	width: 150px;
+	height: 40px;
 	background: #77be1d;
+	cursor: pointer;
 	backdrop-filter: blur(10px);
 	border-radius: 12px;
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 130%;
 	z-index: 999px !important;
 	color: #ffffff;
-}
-
-.sale1:hover + .hidden_element {
-	display: block;
-	z-index: 999px !important;
 }
 
 .main {
@@ -113,12 +123,17 @@
 }
 
 .title {
+	display: flex;
 	padding-left: 10px;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 130%;
 	color: #ffffff;
+
+	p {
+		padding-top: 10px;
+	}
 }
 
 .key {
@@ -209,11 +224,12 @@
 }
 
 .slide_button {
-	margin: 20px 30px 0px;
+	margin: 70px 30px 0px;
 	display: flex;
 }
 
 .button_right {
+	cursor: pointer;
 	width: 144px;
 	height: 63px;
 	margin-right: 5px;
@@ -223,6 +239,7 @@
 }
 
 .button_left {
+	cursor: pointer;
 	width: 144px;
 	height: 63px;
 	background: rgba(255, 255, 255, 0.1);

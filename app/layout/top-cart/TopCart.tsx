@@ -8,7 +8,8 @@ import sale2 from '../../../public/sale2.png'
 import sale3 from '../../../public/sale3.png'
 import sale4 from '../../../public/sale4.png'
 //
-import karti from '../../../public/karti.png'
+import Mask from '../../../public/Mask.png'
+import Karti from '../../../public/karti.png'
 
 function TopCart() {
 	return (
@@ -21,14 +22,16 @@ function TopCart() {
 			<div className={styles.main}>
 				<div className={styles.sale}>
 					<Image className={styles.sale1} src={sale1} alt='sale' />
-					<button className={styles.hidden_element}>В корзину</button>
 
 					<div className={styles.number}>
 						<p>16 400 P</p>
 						<span>-15%</span>
 						<p className={styles.tit}>16 400P</p>
 					</div>
-					<div className={styles.title}>Minecraft</div>
+					<div className={styles.title}>
+						<p>Minecraft</p>
+						<button className={styles.hidden_element}>В корзину</button>
+					</div>
 					<div className={styles.key}>
 						<div className={styles.sfera}></div>
 						<span>Буст</span>
@@ -39,13 +42,16 @@ function TopCart() {
 				{/* 2 */}
 				<div className={styles.sale}>
 					<Image className={styles.sale1} src={sale2} alt='sale' />
-					<button className={styles.hidden_element}>В корзину</button>
+
 					<div className={styles.number}>
 						<p>16 400 P</p>
 						<span>-15%</span>
 						<p className={styles.tit}>16 400P</p>
 					</div>
-					<div className={styles.title}>Minecraft</div>
+					<div className={styles.title}>
+						<p>Minecraft</p>
+						<button className={styles.hidden_element}>В корзину</button>
+					</div>
 					<div className={styles.key}>
 						<div className={styles.sfera}></div>
 						<span>Ключ</span>
@@ -56,13 +62,16 @@ function TopCart() {
 				{/* 3 */}
 				<div className={styles.sale}>
 					<Image className={styles.sale1} src={sale3} alt='sale' />
-					<button className={styles.hidden_element}>В корзину</button>
+
 					<div className={styles.number}>
 						<p>16 400 P</p>
 						<span>-15%</span>
 						<p className={styles.tit}>16 400P</p>
 					</div>
-					<div className={styles.title}>Minecraft</div>
+					<div className={styles.title}>
+						<p>Minecraft</p>
+						<button className={styles.hidden_element}>В корзину</button>
+					</div>
 					<div className={styles.key}>
 						<div className={styles.sfera}></div>
 						<span>Ключ</span>
@@ -73,13 +82,17 @@ function TopCart() {
 				{/* 4 */}
 				<div className={styles.sale}>
 					<Image className={styles.sale1} src={sale4} alt='sale' />
-					<button className={styles.hidden_element}>В корзину</button>
+
 					<div className={styles.number}>
 						<p>16 400 P</p>
 						<span>-15%</span>
 						<p className={styles.tit}>16 400P</p>
 					</div>
-					<div className={styles.title}>Minecraft</div>
+					<div className={styles.title}>
+						<p>Minecraft</p>
+						<button className={styles.hidden_element}>В корзину</button>
+					</div>
+
 					<div className={styles.key}>
 						<div className={styles.sfera}></div>
 						<span>Ключ</span>
@@ -97,11 +110,11 @@ function TopCart() {
 							<p>4 999 P</p>
 							<span>-25%</span>
 							<p className={styles.slide_num}>6 999P</p>
+							<Image className={styles.li} width={200} src={Karti} alt='d' />
 						</div>
 						<div className={styles.slide_button}>
 							<button className={styles.button_right}>Купить</button>
 							<button className={styles.button_left}>В избранное</button>
-							{/* <Image className={styles.sli} src={karti} alt='' /> */}
 						</div>
 					</div>
 				</div>
@@ -112,8 +125,10 @@ function TopCart() {
 						<div className={styles.slide_number}>
 							<p>4 999 P</p>
 							<span>-25%</span>
-							<p className={styles.slide_num}>6 999P</p>
+							<p className={styles.slide_num}>6 999P</p>{' '}
+							<Image className={styles.ll} width={300} src={Mask} alt='d' />
 						</div>
+
 						<div className={styles.slide_button}>
 							<button className={styles.button_right}>Купить</button>
 							<button className={styles.button_left}>В избранное</button>
